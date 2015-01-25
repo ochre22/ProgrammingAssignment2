@@ -25,7 +25,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
-    # Setting up our cache variables
+    # Function for resetting cache variables if original matrix changes
     set <- function(y) {
         x <<- y
         m <<- NULL
